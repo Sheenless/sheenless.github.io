@@ -12,23 +12,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <div class="site-wrapper">
+
+      <aside class="sidebar">
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {% assign name_parts = site.title | split: ' ' %}
+          {% for part in name_parts %}
+            <span>{{ part }}</span>
+          {% endfor %}
+        </a>
         <nav class="site-nav">
+          <a class="nav-link {% if page.url == '/' %}nav-active{% endif %}"
+             href="{{ '/' | relative_url }}">HOME</a>
           {% assign pages = site.pages | sort: 'order' %}
           {% for p in pages %}
             {% if p.layout == 'page' %}
-              <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | upcase }}</a>
+              <a class="nav-link {% if page.url == p.url %}nav-active{% endif %}"
+                 href="{{ p.url | relative_url }}">{{ p.title | upcase }}</a>
             {% endif %}
           {% endfor %}
         </nav>
-      </div>
-    </header>
+      </aside>
 
-    <main class="content">
-      {{ content }}
-    </main>
+      <main class="content">
+        {{ content }}
+      </main>
+
+    </div>
 
     <footer class="site-footer">
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>

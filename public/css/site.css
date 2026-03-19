@@ -12,51 +12,108 @@ body {
 a { color: #222; text-decoration: none; border-bottom: 1px solid #ccc; }
 a:hover { border-bottom-color: #222; }
 
-/* Header */
-.site-header {
-  padding: 2rem 3rem;
-  border-bottom: 1px solid #eee;
+/* =====================
+   TWO-COLUMN LAYOUT
+   ===================== */
+.site-wrapper {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.header-inner {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  align-items: baseline;
-  gap: 2rem;
-  flex-wrap: wrap;
+/* =====================
+   SIDEBAR
+   ===================== */
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  padding: 3rem 2rem 3rem 2rem;
+  border-right: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
 .site-title {
-  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   border: none;
   color: #222;
+  margin-bottom: 1.5rem;
 }
 
-.site-nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.site-title span {
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
 .nav-link {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #888;
+  color: #999;
+  border: none;
+  display: block;
+}
+
+.nav-link:hover,
+.nav-active {
+  color: #222;
+}
+
+/* =====================
+   MAIN CONTENT
+   ===================== */
+.content {
+  flex: 1;
+  padding: 3rem 3rem 3rem 3.5rem;
+  max-width: 760px;
+}
+
+/* =====================
+   HOME INTRO
+   ===================== */
+.home-intro {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.social-links a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
   border: none;
 }
 
-.nav-link:hover { color: #222; }
+.social-links a:hover { color: #222; }
 
-/* Content */
-.content {
-  max-width: 800px;
-  margin: 3rem auto;
-  padding: 0 3rem;
-}
-
-/* Posts */
+/* =====================
+   POST CARDS
+   ===================== */
 .post-card {
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
@@ -64,22 +121,53 @@ a:hover { border-bottom-color: #222; }
 }
 
 .post-meta {
-  font-size: 0.8rem;
-  color: #888;
+  font-size: 0.75rem;
+  color: #999;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.3rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.2rem;
 }
 
-h1 { font-size: 2rem; font-weight: 700; line-height: 1.25; }
-h2 { font-size: 1.3rem; font-weight: 700; }
+.post-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
 
-/* Footer */
+.post-card h3 a { border: none; color: #222; }
+.post-card h3 a:hover { border-bottom: 1px solid #222; }
+
+/* =====================
+   TYPOGRAPHY
+   ===================== */
+h1 { font-size: 1.9rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.3rem; }
+h2 { font-size: 1.3rem; font-weight: 700; margin-top: 2rem; }
+
+/* =====================
+   FOOTER
+   ===================== */
 .site-footer {
   text-align: center;
   padding: 2rem;
-  font-size: 0.8rem;
-  color: #aaa;
+  font-size: 0.75rem;
+  color: #bbb;
   border-top: 1px solid #eee;
-  margin-top: 4rem;
+  margin-top: 0;
+}
+
+/* =====================
+   RESPONSIVE
+   ===================== */
+@media (max-width: 600px) {
+  .site-wrapper { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding: 1.5rem 2rem;
+  }
+  .site-nav { flex-direction: row; flex-wrap: wrap; gap: 0.3rem 1rem; }
+  .content { padding: 2rem; }
 }
