@@ -1,26 +1,21 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title:          Matt Heaton
+tagline:        'Agricultural Development · Sustainability · Data Visualisation'
+description:    'Research Fellow at the University of East Anglia.'
+url:            'https://sheenless.github.io'
+baseurl:        ''
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# Author
+author:  
+  name:         'Matt Heaton'
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# Build settings
+markdown:       kramdown
+highlighter:    rouge
+paginate:       5
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-seo-tag

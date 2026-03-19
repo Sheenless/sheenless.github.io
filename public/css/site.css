@@ -1,0 +1,85 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+  margin: 0;
+}
+
+a { color: #222; text-decoration: none; border-bottom: 1px solid #ccc; }
+a:hover { border-bottom-color: #222; }
+
+/* Header */
+.site-header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  color: #222;
+}
+
+.site-nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+
+.nav-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888;
+  border: none;
+}
+
+.nav-link:hover { color: #222; }
+
+/* Content */
+.content {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 3rem;
+}
+
+/* Posts */
+.post-card {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+
+h1 { font-size: 2rem; font-weight: 700; line-height: 1.25; }
+h2 { font-size: 1.3rem; font-weight: 700; }
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #aaa;
+  border-top: 1px solid #eee;
+  margin-top: 4rem;
+}

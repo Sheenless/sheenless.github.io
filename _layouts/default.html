@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-  {% include head.html %}
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}
+    </title>
+    <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
   <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          {% assign pages = site.pages | sort: 'order' %}
+          {% for p in pages %}
+            {% if p.layout == 'page' %}
+              <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | upcase }}</a>
+            {% endif %}
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
 
-    {% include sidebar.html %}
-
-    <div class="content container">
+    <main class="content">
       {{ content }}
-    </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    </footer>
 
   </body>
 </html>
