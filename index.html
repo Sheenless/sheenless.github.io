@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+nav_exclude: true
 ---
 
 <div class="home-intro">
@@ -11,17 +12,17 @@ title: Home
 </div>
 
 <div class="social-links">
-  <a href="mailto:m.heaton@uea.ac.uk">EMAIL</a>
-  <a href="https://orcid.org/0000-0001-8087-483X">ORCID</a>
-  <a href="https://www.linkedin.com/in/matt-heaton/">LINKEDIN</a>
   <a href="https://nisd.ac.uk/core-team/matt-heaton/">NISD</a>
+  <a href="mailto:m.heaton@uea.ac.uk">EMAIL</a>
+  <a href="https://www.linkedin.com/in/matt-heaton/">LINKEDIN</a>
+  <a href="https://orcid.org/0000-0001-8087-483X">ORCID</a>
   <a href="https://github.com/Sheenless">GITHUB</a>
 </div>
 
 <h2>Recent Posts</h2>
 
 <div class="post-grid">
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:2 %}
 <div class="post-card">
   {% if post.image %}
     <img src="{{ post.image }}" alt="{{ post.title }}">
@@ -31,4 +32,67 @@ title: Home
   <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
 </div>
 {% endfor %}
+</div>
+
+<!-- RECENT POSTS SECTION -->
+<div class="recent-posts">
+  <div class="section-header">
+    <h2>Recent Posts</h2>
+    <a href="{{ '/blog/' | relative_url }}" class="see-all">→ See all posts</a>
+    <p>This is a section of text talking about how good the recent posts section is. Or maybe, the question 
+      is does it wrap correctly?. 
+    </p>
+  </div>
+  <div class="post-grid">
+    {% for post in site.posts limit:2 %}
+    <div class="post-card">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+      {% endif %}
+      <p class="post-meta">{{ post.date | date: "%B %Y" | upcase }}</p>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- RECENT RESEARCH -->
+<div class="section-header">
+  <h2>Research</h2>
+  <a href="{{ '/research/' | relative_url }}" class="see-all">→ See all research</a>
+  <p>Examples from my research over the years.</p>
+</div>
+<div class="post-grid">
+  {% assign sorted_research = site.research | sort: "date" | reverse %}
+  {% for item in sorted_research limit:2 %}
+    <div class="post-card">
+      {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+      {% endif %}
+      <p class="post-meta">{{ item.date | date: "%B %Y" | upcase }}</p>
+      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+      <p>{{ item.blurb }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- RECENT DATA VIS -->
+<div class="section-header">
+  <h2>Data Visualisation</h2>
+  <a href="{{ '/dataviz/' | relative_url }}" class="see-all">→ See all data vis</a>
+    <p>Data visualisation graphs and projects I have worked on.</p>
+</div>
+<div class="post-grid">
+  {% assign sorted_dataviz = site.dataviz | sort: "date" | reverse %}
+  {% for item in sorted_dataviz limit:2 %}
+    <div class="post-card">
+      {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+      {% endif %}
+      <p class="post-meta">{{ item.date | date: "%B %Y" | upcase }}</p>
+      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+      <p>{{ item.blurb }}</p>
+    </div>
+  {% endfor %}
 </div>

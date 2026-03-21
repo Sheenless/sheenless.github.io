@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
-order: 2
+title: Visual
+order: 5
 ---
 
-Writing on sustainability, agricultural development, and food systems.
+I provide specialist design, including photos, video, graphic design, typesetting and website development. This page contains examples of my work.
 
 <h2>Kenya</h2>
 <div class="post-grid">

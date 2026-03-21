@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Research
-order: 3
+title: Data Vis
+order: 4
 ---
 
-Links to articles, policy briefs and other outputs from my research.
+Visualisations exploring humanitarian and sustainability challenges.
 
 <div class="post-grid">
-{% for item in site.research %}
+{% for item in site.dataviz %}
   <div class="post-card">
     {% if item.image %}
       <img src="{{ item.image }}" alt="{{ item.title }}">

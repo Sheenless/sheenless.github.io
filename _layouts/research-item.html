@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="research-item">
+  {% if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+  {% endif %}  
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}
+    <p class="post-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+  <p class="meta">{{ page.date | date: "%B %Y" }}</p>
+  {% if page.journal %}
+    <p class="journal">Published in <em>{{ page.journal }}</em></p>
+  {% endif %}
+  
+  {% if page.doi %}
+    <a href="{{ page.doi }}" class="doi-link">→ Read paper</a>
+  {% endif %}
+
+  {{ content }}
+</article>

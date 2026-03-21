@@ -19,3 +19,14 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jekyll-seo-tag
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  dataviz:
+    output: true
+    permalink: /dataviz/:name/
+  Design:
+    output: true
+    permalink: /Design/:name/
