@@ -2,22 +2,186 @@
 layout: default
 ---
 
+<style>
+  .research-item {
+    max-width: 780px;
+    margin: 1.5rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .research-item .meta-strip {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .research-item .type-badge {
+    display: inline-block;
+    background: #1a5c3a;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.75rem;
+    border-radius: 2px;
+  }
+
+  .research-item .meta-divider {
+    width: 1px;
+    height: 1rem;
+    background: #e0ddd5;
+  }
+
+  .research-item .journal-name {
+    font-size: 0.85rem;
+    color: #6b6b63;
+    font-style: italic;
+  }
+
+  .research-item .pub-date {
+    font-size: 0.85rem;
+    color: #6b6b63;
+    margin-left: auto;
+  }
+
+  .research-item h1 {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.25rem;
+  }
+
+  .research-item .authors {
+    font-size: 0.82rem;
+    color: #6b6b63;
+    margin-bottom: 1.25rem;
+  }
+
+  .research-item .article-image {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 2.5rem;
+    border: 1px solid #e0ddd5;
+  }
+
+  .research-item .section-rule {
+    border: none;
+    border-top: 1.5px solid #e0ddd5;
+    margin: 0 0 1.25rem;
+  }
+
+  .research-item .section-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #1a5c3a;
+    margin-bottom: 0.85rem;
+  }
+
+  .research-item .abstract-text {
+    margin-bottom: 1.5rem;
+  }
+
+  .research-item .keyword-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .research-item .keyword-pill {
+    font-size: 0.8rem;
+    background: #e8f2ec;
+    color: #1a5c3a;
+    padding: 0.3rem 0.8rem;
+    border-radius: 100px;
+    border: 1px solid rgba(26, 92, 58, 0.2);
+  }
+
+  .research-item .doi-link-wrap {
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0ddd5;
+  }
+
+  .research-item .doi-link {
+    font-size: 0.82rem;
+    color: #6b6b63;
+    text-decoration: none;
+  }
+
+  .research-item .doi-link:hover {
+    color: #1a5c3a;
+    text-decoration: underline;
+  }
+
+  .research-item .doi-label {
+    font-weight: 600;
+    color: #1c1c1a;
+  }
+</style>
+
 <article class="research-item">
-  {% if page.image %}
-    <img src="{{ page.image }}" alt="{{ page.title }}">
-  {% endif %}  
+
+  <div class="meta-strip">
+    {% if page.type %}
+      <span class="type-badge">{{ page.type }}</span>
+    {% endif %}
+
+    {% if page.journal %}
+      <span class="meta-divider"></span>
+      <span class="journal-name">{{ page.journal }}</span>
+    {% endif %}
+
+    {% if page.date %}
+      <time class="pub-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+    {% endif %}
+  </div>
+
   <h1>{{ page.title }}</h1>
-  {% if page.subtitle %}
-    <p class="post-subtitle">{{ page.subtitle }}</p>
+
+  {% for author in page.authors %}
+  {% if author == "Heaton M" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+
+  {% if page.image %}
+    <img class="article-image" src="{{ page.image }}" alt="{{ page.title }}">
   {% endif %}
-  <p class="meta">{{ page.date | date: "%B %Y" }}</p>
-  {% if page.journal %}
-    <p class="journal">Published in <em>{{ page.journal }}</em></p>
+
+  <hr class="section-rule">
+
+  {% if page.abstract %}
+    <p class="section-label">Abstract</p>
+    <p class="abstract-text">{{ page.abstract }}</p>
   {% endif %}
-  
-  {% if page.doi %}
-    <a href="{{ page.doi }}" class="doi-link">→ Read paper</a>
+
+  {% if page.keywords %}
+    <p class="section-label">Keywords</p>
+    <div class="keyword-list">
+      {% for keyword in page.keywords %}
+        <span class="keyword-pill">{{ keyword }}</span>
+      {% endfor %}
+    </div>
   {% endif %}
 
   {{ content }}
+
+  {% if page.doi %}
+    <div class="doi-link-wrap">
+      <a class="doi-link" href="{{ page.doi }}" target="_blank" rel="noopener">
+        <span class="doi-label">DOI</span>&nbsp;&nbsp;{{ page.doi | remove: "https://doi.org/" }}
+      </a>
+    </div>
+  {% endif %}
+
 </article>

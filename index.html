@@ -5,10 +5,9 @@ nav_exclude: true
 ---
 
 <div class="home-intro">
-  <p>Hi, I'm <strong>Matt Heaton</strong> — a research fellow working 
-  at the interface of natural and social sciences
-  on agricultural development, food systems, 
-  and sustainability across Africa and beyond.</p>
+  <p>Hi, I'm <strong>Matt Heaton</strong> - a research fellow working 
+  at the interface of natural and social sciences. I work on food systems, agriculture, biotechnology 
+  and sustainability.</p>
 </div>
 
 <div class="social-links">
@@ -19,28 +18,14 @@ nav_exclude: true
   <a href="https://github.com/Sheenless">GITHUB</a>
 </div>
 
-<h2>Recent Posts</h2>
 
-<div class="post-grid">
-{% for post in site.posts limit:2 %}
-<div class="post-card">
-  {% if post.image %}
-    <img src="{{ post.image }}" alt="{{ post.title }}">
-  {% endif %}
-  <p class="post-meta">{{ post.date | date: "%B %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
-</div>
-{% endfor %}
-</div>
 
 <!-- RECENT POSTS SECTION -->
 <div class="recent-posts">
   <div class="section-header">
     <h2>Recent Posts</h2>
     <a href="{{ '/blog/' | relative_url }}" class="see-all">→ See all posts</a>
-    <p>This is a section of text talking about how good the recent posts section is. Or maybe, the question 
-      is does it wrap correctly?. 
+    <p>Blog post, articles and updates on my work, collaborations, experences and opinions. Mostly on writing on sustainability, agricultural development, and food systems.
     </p>
   </div>
   <div class="post-grid">
@@ -58,22 +43,122 @@ nav_exclude: true
 </div>
 
 <!-- RECENT RESEARCH -->
+<!-- RECENT RESEARCH -->
+<style>
+  .recent-research-row {
+    display: grid;
+    grid-template-columns: 6rem 1fr auto;
+    grid-template-areas:
+      "meta  title  badge"
+      "meta  footer badge";
+    column-gap: 1.25rem;
+    row-gap: 0.2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #e0ddd5;
+    align-items: start;
+    text-decoration: none;
+    color: inherit;
+  }
+ 
+  .recent-research-row:last-of-type {
+    border-bottom: 1px solid #e0ddd5;
+  }
+ 
+  .recent-research-row:hover .recent-research-row__title {
+    color: #1a5c3a;
+  }
+ 
+  .recent-research-row__meta {
+    grid-area: meta;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-top: 0.1rem;
+  }
+ 
+  .recent-research-row__date {
+    font-size: 0.78rem;
+    color: #6b6b63;
+    white-space: nowrap;
+  }
+ 
+  .recent-research-row__journal {
+    font-size: 0.75rem;
+    color: #6b6b63;
+    font-style: italic;
+    line-height: 1.3;
+  }
+ 
+  .recent-research-row__title {
+    grid-area: title;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+    transition: color 0.15s ease;
+  }
+ 
+  .recent-research-row__footer {
+    grid-area: footer;
+    font-size: 0.82rem;
+    color: #6b6b63;
+    line-height: 1.4;
+  }
+ 
+  .recent-research-row__badge {
+    grid-area: badge;
+    display: inline-block;
+    background: #1a5c3a;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    align-self: start;
+  }
+ 
+  @media (max-width: 560px) {
+    .recent-research-row {
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "title  badge"
+        "footer footer"
+        "meta   meta";
+    }
+  }
+</style>
+ 
 <div class="section-header">
   <h2>Research</h2>
   <a href="{{ '/research/' | relative_url }}" class="see-all">→ See all research</a>
   <p>Examples from my research over the years.</p>
 </div>
-<div class="post-grid">
+ 
+<div class="recent-research-list">
   {% assign sorted_research = site.research | sort: "date" | reverse %}
-  {% for item in sorted_research limit:2 %}
-    <div class="post-card">
-      {% if item.image %}
-        <img src="{{ item.image }}" alt="{{ item.title }}">
+  {% for item in sorted_research limit: 3 %}
+    <a class="recent-research-row" href="{{ item.url }}">
+ 
+      <div class="recent-research-row__meta">
+        <span class="recent-research-row__date">{{ item.date | date: "%b %Y" }}</span>
+        {% if item.journal %}
+          <span class="recent-research-row__journal">{{ item.journal }}</span>
+        {% endif %}
+      </div>
+ 
+      <span class="recent-research-row__title">{{ item.title }}</span>
+ 
+      <div class="recent-research-row__footer">
+        {% if item.blurb %}{{ item.blurb }}{% endif %}
+      </div>
+ 
+      {% if item.type %}
+        <span class="recent-research-row__badge">{{ item.type }}</span>
       {% endif %}
-      <p class="post-meta">{{ item.date | date: "%B %Y" | upcase }}</p>
-      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-      <p>{{ item.blurb }}</p>
-    </div>
+ 
+    </a>
   {% endfor %}
 </div>
 
@@ -81,7 +166,7 @@ nav_exclude: true
 <div class="section-header">
   <h2>Data Visualisation</h2>
   <a href="{{ '/dataviz/' | relative_url }}" class="see-all">→ See all data vis</a>
-    <p>Data visualisation graphs and projects I have worked on.</p>
+    <p>Data visualisation is a bit of a hobby of mine. Here are some of my visualisations exploring humanitarian and sustainability challenges.</p>
 </div>
 <div class="post-grid">
   {% assign sorted_dataviz = site.dataviz | sort: "date" | reverse %}
