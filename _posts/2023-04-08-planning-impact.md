@@ -7,9 +7,9 @@ image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*KfklyINQKDPV_-KI
 tags: [MLE, impact, guides]
 ---
 
-This post is part of [a series on impact planning](https://medium.com/@Matt.Heaton/impact-mle-101-an-intro-guide-to-planning-and-measuring-impact-253500d1373a).
-
 How do you actually measure change and impact? In this section, we’re going to look at how to make methodical plans to confirm evidence of change. We’re going to start with the details, and move to the overarching thoughts.
+
+This post is part of [a series on impact planning](https://medium.com/@Matt.Heaton/impact-mle-101-an-intro-guide-to-planning-and-measuring-impact-253500d1373a).
 
 Continuing the example we’ve been building on in this guide: we understand that we have outputs, outcomes and (fleshed-out) actors. The next question is, how do we monitor change across this map?
 

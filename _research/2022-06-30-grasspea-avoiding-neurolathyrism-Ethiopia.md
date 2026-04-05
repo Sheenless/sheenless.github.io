@@ -4,7 +4,7 @@ title: "Unlocking genebanks for farmer resilience: Assessing the impact of ‘Ge
 date: 2022-06-30
 image: 
 type: Policy brief
-journal: "NISD"
+journal: "NISD Policy Brief"
 doi: "https://doi.org/10.6084/m9.figshare.24220780.v1"
 countries: [Ethiopia]
 authors: [Heaton M, Emmrich P, Perez-Viana B, Mulat B & Verschoor A]

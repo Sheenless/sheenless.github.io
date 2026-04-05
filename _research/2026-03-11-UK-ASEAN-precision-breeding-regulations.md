@@ -3,10 +3,10 @@ layout: research-item
 title: "An overview of gene edited crops globally"
 date: 2026-03-11
 image: 
-type: Key note
+type: Keynote
 journal: "UK-ASEAN Symposium"
 doi: 
-countries: [global, Malaysia, Vietnam]
+countries: [Global, Malaysia, Vietnam]
 authors: [Heaton M]
 blurb: "Global regulatory status for gene edited crops, what this is based upon and how it is changing"
 keywords: [gene editing, precision breeding, crops, regulation]

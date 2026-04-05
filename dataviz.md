@@ -15,7 +15,8 @@ Nearly all of these are made in Python, but I'll likely use Datawrapper more so 
 ---
 
 <div class="post-grid">
-{% for item in site.dataviz %}
+{% assign dataviz_sorted = site.dataviz | sort: 'date' | reverse %}
+{% for item in dataviz_sorted %}
   <div class="post-card">
     {% if item.image %}
       <img src="{{ item.image }}" alt="{{ item.title }}">

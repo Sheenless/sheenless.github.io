@@ -7,9 +7,9 @@ image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*SIWxWxpWSZq9mgIG
 tags: [Impact, Impact Measurement, MLE, Monitoring And Evaluation, Guides And Tutorials]
 ---
 
-This post is part of a series on impact planning.
-
 What impact do you intend to have? It’s surprising how often I’ve asked this question and heard responses which are not impacts. Usually they are part of the picture, but they’re missing understanding of exactly what we mean by impact.
+
+This post is part of a series on impact planning.
 
 So what do we mean by impact? We can define it as follows:
 

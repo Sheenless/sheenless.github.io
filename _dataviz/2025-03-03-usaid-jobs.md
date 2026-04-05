@@ -6,7 +6,7 @@ date: 2025-03-03
 image: "https://media.licdn.com/dms/image/v2/D4D22AQGFTGtoJvvB1w/feedshare-shrink_800/B4DZVQY9j4G4Ag-/0/1740810477848?e=1775692800&v=beta&t=OqOwdJGHNSOAl1ODFqG9lCg0hFQvQGQTZYCo8b9wQdo"
 tags: [aid, food]
 tools: [Python]
-blurb: "Visualising the number of jobs affected by the 2025 USAID freeze"
+blurb: "The USAID freeze means job losses across America and beyond - and the knock-on effects are already affecting the world's vulnerable."
 ---
 
 The USAID freeze means job losses across America and beyond - and the knock-on effects are already affecting the world's vulnerable.
