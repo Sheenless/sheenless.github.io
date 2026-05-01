@@ -3,7 +3,7 @@ layout: post
 title: "The difference in healthy life between the UK's wealthiest and poorest"
 subtitle: "We need to add more life to years, not just years to life."
 date: 2023-06-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFLSs6LQ9yhTQ/feedshare-shrink_800/feedshare-shrink_800/0/1683284880847?e=1776297600&v=beta&t=mund3-m3oV1nOUxrvgIdyEqXFOY2sBg928R9-0eIdWA"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/healthy-life_xfiagm.jpg"
 tags: [Nutrition, Poverty, Inequality, Justice, Healthy diets]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Seven tips to help with the PhD thesis writing"
 subtitle: "Pointers that helped me."
 date: 2023-11-12
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGOv9_XKGfSkw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1699615387444?e=1776297600&v=beta&t=gpc9Pdm7YI5JTZwnCoojsQL4E0Vv1hFgCUOhAKc4zVU"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660348/phd-writing_gufg3t.jpg"
 tags: [PhD, writing, thesis]
 ---
 

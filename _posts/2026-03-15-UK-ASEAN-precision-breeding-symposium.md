@@ -3,7 +3,7 @@ layout: post
 title: "Keynote at the UK-ASEAN Symposium on Precision Breeding"
 subtitle: "Honoured to give a keynote at the UK-ASEAN Precision Breeding Symposium in Malaysia and to present at the UK-ASEAN Symposium on Precision Breeding in Hanoi."
 date: 2025-05-30
-image: "https://media.licdn.com/dms/image/v2/D5622AQGYVjqRiKkB8Q/feedshare-shrink_800/B56Z0AaINHH0Ac-/0/1773828344064?e=1776902400&v=beta&t=nJ9tmgM2C9axW2KQMZ-_9-wV69KYufzRxdxF0uMDlJY"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660351/pbf_rgmmv2.jpg"
 tags: [Precision Breeding, ASEAN, Gene editing]
 ---
 

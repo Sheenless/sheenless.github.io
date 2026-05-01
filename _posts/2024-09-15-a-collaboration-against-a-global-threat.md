@@ -3,7 +3,7 @@ layout: post
 title: "A global system to protect farmers from a persistent threat"
 subtitle: "Introducing the Wheat Disease Early Warning Advisory System "
 date: 2024-09-15
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFaRoGW-OHWzw/feedshare-shrink_800/feedshare-shrink_800/0/1729171657350?e=1776297600&v=beta&t=Far0CrYPdqNT-i75FaCyR6qu9jvwTGJoGQnCQWy1VG0"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660349/kalro-rust_titx3x.jpg"
 tags: [Wheat, Rust, Crop disease, Resilience, Crop breeding, Kenya]
 ---
 

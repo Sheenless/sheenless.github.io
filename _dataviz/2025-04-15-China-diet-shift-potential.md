@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "Shifting to healthy diets could mitigate half of China's agricultural emissions"
 subtitle: "Estimated figures based on three dietary guidelines"
 date: 2025-04-15
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGbz5g1HuD9zQ/feedshare-shrink_2048_1536/B4EZSpIMRBHoAo-/0/1738004285007?e=1776297600&v=beta&t=qamypeXGYxsSuB97Bm0PEBfu1JansjWTTAP79Kf3Ln4"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660349/china-diets_rffu4h.jpg"
 tags: [China, Emissions, Dietary change, Agriculture]
 tools: [Python]
 blurb: "If China shifted to widespread adoption of healthy diets, it would reduce agricultural emissions by 51%. An ongoing win-win is that healthy diets are also more sustainable."

@@ -3,7 +3,7 @@ layout: post
 title: "Supporting the next women leaders in wheat research"
 subtitle: "Working to improve the representation in wheat research of women in senior management roles."
 date: 2026-03-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGsVOgNBR-n0Q/feedshare-shrink_800/B4EZ0_6VKPI4Ac-/0/1774893749843?e=1776902400&v=beta&t=VtJOk0v_1xZQ-SVZxifIEZHTEtDzVBTMfmAuS4HVxAE"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660351/WiWObregon_c02vnx.jpg"
 tags: [Women, Research, Women, Diversity]
 ---
 

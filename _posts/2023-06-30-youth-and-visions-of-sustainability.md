@@ -3,7 +3,7 @@ layout: post
 title: "How young people feel about the future"
 subtitle: "Young people want more sustainable futures, and to be involved in building them."
 date: 2023-06-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGAR_G_sJ64aw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1688138402324?e=1776297600&v=beta&t=foE-AMA_iRdCGi24FmIBdgMmU6voRhHDcQmcJviXiYc"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660348/nor-show_nc6rge.jpg"
 tags: [Climate, Sustainability, Youth]
 ---
 

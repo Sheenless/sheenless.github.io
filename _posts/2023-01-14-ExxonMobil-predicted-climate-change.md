@@ -3,7 +3,7 @@ layout: post
 title: "ExxonMobil's scientists projected global warming for decades"
 subtitle: "But they worked to deny it."
 date: 2023-01-14
-image: "https://media.licdn.com/dms/image/v2/C4E22AQFBB7r__9LLAg/feedshare-shrink_800/feedshare-shrink_800/0/1673608660266?e=1776297600&v=beta&t=JSV2lstFHVJf8hubRgP6dB6KJazWd-ntzH1cyWOjxIg"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/exxon_zmvfyj.jpg"
 tags: [Climate change, Fossil fuels, Emissions]
 ---
 

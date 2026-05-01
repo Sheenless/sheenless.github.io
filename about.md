@@ -6,7 +6,7 @@ order: 1
 
 Hi, I'm [Dr Matt Heaton](https://www.linkedin.com/in/matt-heaton/). I am a John Innes Foundation Fellow in Sustainable Food Security at the [Norwich Institute for Sustainable Development](https://nisd.ac.uk/core-team/matt-heaton/) and a Research Associate at the [UK-CGIAR Centre](https://www.cabi.org/uk-cgiar-centre/). 
 
-I am based in the [School of Global Development](https://www.uea.ac.uk/about/school-of-global-development) at the University of East Anglia and is a Visiting Researcher at the John Innes Centre.
+I am based in the [School of Global Development](https://www.uea.ac.uk/about/school-of-global-development) at the University of East Anglia and is a visiting worker at the John Innes Centre.
 
 <!-- FOUR BLOCK OVERVIEW -->
 <style>
@@ -91,6 +91,6 @@ I am based in the [School of Global Development](https://www.uea.ac.uk/about/sch
   <li><strong>Understanding wheat farmer preferences:</strong>Research with the UK-CGIAR Centre with farmers and value chains across Egypt, Kenya and Pakistan.</li>
   <li><strong>Gene editing book chapter:</strong> Leading a chapter on the global status of gene editing regulations for crops.</li>
   <li><strong>Gene editing crop regulation tracker:</strong>Leading a website tracking regulatory change across gene editing in crops and providing communication tools for researchers to report on this. See <a href="https://cropgeregulations.com">https://cropgeregulations.com</a>/</li>
-  <li><strong>UK-ASEAN Precision Breeding Network:</strong> Developing a new network for researchers across the UK and ASEAN countries.</li>
-  <li><strong>Principles for ODA</strong> Developing a set of principles to guide and critique Overseas Development Aid strategy.</li>
+  <li><strong>UK-ASEAN Precision Breeding Network:</strong> Developing a new network for researchers across the UK and ASEAN countries. See <a href='https://uk-asean-precision-breeding.net/'>uk-asean-precision-breeding.net</a></li>
+  <li><strong>Principles for ODA</strong> Developing a set of principles to guide and critique Overseas Development Aid strategy. See: <a href='https://odaprinciples.com/'>odaprinciples.com</a></li>
 </ul>

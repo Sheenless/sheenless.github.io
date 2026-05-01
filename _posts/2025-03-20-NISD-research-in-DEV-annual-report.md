@@ -3,7 +3,7 @@ layout: post
 title: "NISD research featured in DEV Annual Report"
 subtitle: "Celebrating new res"
 date: 2025-05-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQHxlle3dqgayQ/feedshare-shrink_800/B4EZfMycOxHIAk-/0/1751487469857?e=1776297600&v=beta&t=pMTZAjwg5SXNdbrj4iiPY8ReGq3d4hNv1CRghNVXNuI"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/dev-annual_aeli1j.jpg"
 tags: [Research, UK-CGIAR]
 ---
 

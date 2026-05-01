@@ -3,7 +3,7 @@ layout: post
 title: "The first year the EU produced more from renewables than fossil fuels"
 subtitle: "The steps that helped unlock solar and wind power."
 date: 2023-01-20
-image: "https://media.licdn.com/dms/image/v2/C4E22AQFMn48bpngKVQ/feedshare-shrink_800/feedshare-shrink_800/0/1675258249599?e=1776297600&v=beta&t=f9CJlA1FU3S6ZVhOB52gR6CH1XTpHlLkSRU2921uD6w"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/elect-renewable_lg93no.jpg"
 tags: [Energy, sustainability, Fossil fuels, EU, Europe]
 ---
 

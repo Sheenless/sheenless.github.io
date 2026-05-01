@@ -3,7 +3,7 @@ layout: post
 title: "My birthday started with death threats"
 subtitle: "Who is welcome in Uganda and who is not."
 date: 2023-03-28
-image: "https://media.licdn.com/dms/image/v2/D4E22AQHqysu5UUx82A/feedshare-shrink_800/feedshare-shrink_800/0/1680005626124?e=1776297600&v=beta&t=Q8iiN-OVkNKDZlh1D_c3FwMeMrQcNDjP_zUvE3DyQNg"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/africa-lgbt_fazlyv.jpg"
 tags: [LGBT, Uganda, Homophobia, Africa]
 ---
 
@@ -34,4 +34,4 @@ As the graph above shows however, Uganda is not an outlier in these views. As LG
 ---
 
 [^1]: Perhaps between 100-150 people.
-[^2]: For transparency, I do not identify as LGBT+. I was standing up against the messages regardless but I suspect many of the readers in that group assumed I was.
+[^2]: For transparency, I do not identify as LGBT+. I was standing up against the messages regardless.

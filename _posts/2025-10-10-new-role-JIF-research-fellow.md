@@ -3,7 +3,7 @@ layout: post
 title: "I've gained a new fellowship: JIF Fellow in Global Food Security"
 subtitle: "Some new projects for the next five years."
 date: 2025-10-10
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFdLCmIpDhpIg/feedshare-shrink_800/B4EZooBjr.IUAg-/0/1761608089415?e=1776297600&v=beta&t=CAknM01J7jJkl58qlMMTj9vaRTT8lImECxvG0Dx6AWk"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/new-role-jif_sxibml.jpg"
 tags: [career, research]
 ---
 

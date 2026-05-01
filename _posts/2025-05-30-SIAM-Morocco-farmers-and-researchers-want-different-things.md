@@ -3,7 +3,7 @@ layout: post
 title: "Mismatches in farmer and breeder targets"
 subtitle: "Sometimes researchers and farmers want different things from crops."
 date: 2025-05-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFLNCIvQ-zdqw/feedshare-shrink_800/B4EZgX2BXRHEAg-/0/1752746694958?e=1776297600&v=beta&t=y2pnMNnCFA-cUrYC8Flgr2y-OdIMNVLXsOHprZnf1BA"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/siam_lmjlzc.jpg"
 tags: [crop breeding, farmers, preferences, Morocco]
 ---
 

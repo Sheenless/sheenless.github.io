@@ -3,7 +3,7 @@ layout: post
 title: "Linking farmers with national genebanks for rapid resilience"
 subtitle: "Introducing 'Germplasm User Groups' as a way to support food security and livelihoods."
 date: 2025-09-15
-image: "https://media.licdn.com/dms/image/v2/D4E22AQE4s7O-mwi4Gw/feedshare-shrink_800/B4EZkHN0JlIIAo-/0/1756762687108?e=1776297600&v=beta&t=RvK4_JhVQqY_L7Yaa_giyQwTREqgcB2SnizoPL-F30c"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/gug-paper_iwn4wc.jpg"
 tags: [Africa, genebanks, farmers]
 ---
 

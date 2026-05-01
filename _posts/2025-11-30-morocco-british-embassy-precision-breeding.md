@@ -3,7 +3,7 @@ layout: post
 title: "Moroccan precision breeding meeting with British Embassy"
 subtitle: "Sharing evidence from research with regulators and policy makers."
 date: 2025-11-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGU8plNqfs2MA/feedshare-shrink_800/B4EZq3sJD0HcAg-/0/1764018396487?e=1776297600&v=beta&t=piWiWsVfG_M3_huaG4hg3PDR26JSH2jRSrWBjtsxbxg"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660351/moroco-ge-policy_qwtklm.jpg"
 tags: [Morocco, precision breeding, policy, regulation]
 ---
 

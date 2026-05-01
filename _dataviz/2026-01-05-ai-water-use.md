@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "Avoiding AI to save water? Change your diet first"
 subtitle: "Changing diets tends to have much greater potential to save water."
 date: 2026-01-05
-image: https://media.licdn.com/dms/image/v2/D4E22AQH15WpK6bjYLg/feedshare-shrink_1280/B4EZvVi2SGGoAc-/0/1768814241213?e=1776297600&v=beta&t=ZLCFTKnNoF72wsowwReOS9Reo6-te6WfcFRXNODFbNI
+image: https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777658558/AI_water_use_wgdpn8.jpg
 tags: [water, ai, diets]
 tools: [Python]
 blurb: "I've seen lots recently on avoiding AI use to reduce water consumption - fair enough, but it seems dietary change would be more effective."

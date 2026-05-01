@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "How do young people see food and sustainability?"
 subtitle: "Asking school children how interested they would be in shifting to sustainable diets."
 date: 2025-06-15
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFFWSWbVggGpg/feedshare-shrink_800/B4EZfJuAkIHgAk-/0/1751435971868?e=1776297600&v=beta&t=UJXJ2YyvSvZbO_8qjDj6F8_C_lMf8sw_Z2U6jXz9uTQ"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/sus-young_g7leew.jpg"
 tags: [sustainability, youth, diets]
 tools: [Python]
 blurb: "Younger people have more of the future ahead of them and so will be more affected by the sustainability choices we make today. Yet these same groups are often left out of sustainability conversations and decision-making"

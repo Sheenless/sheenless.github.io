@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "The potential extent of UK ODA cuts"
 subtitle: "A tense time for international relations and the globally vulnerable."
 date: 2025-01-15
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFHtWH-KZAxEA/feedshare-shrink_800/B4EZVD4hIxGwAg-/0/1740600645471?e=1776297600&v=beta&t=ksb7PxI542jt1A5PSbmwnsPk0b31-ephB2Op-zhl0vs"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660349/uk-aid-drop_zaryvs.jpg"
 tags: [ODA, UKAID, Development]
 tools: [Python]
 blurb: "The new UK Government reallocation of international aid could mean only around 0.15% Gross National Income (GNI) goes on overseas spending."

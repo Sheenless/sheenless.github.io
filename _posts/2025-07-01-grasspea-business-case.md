@@ -3,7 +3,7 @@ layout: post
 title: "The business case for safer grasspea in Ethiopia"
 subtitle: "New action plan for a safe, nutritious and resilient crop."
 date: 2025-07-11
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGyrAN9lRAF8g/feedshare-shrink_1280/B4EZlDai5tHIAs-/0/1757772659222?e=1776297600&v=beta&t=p7fLo0KQQ4eF7vl7D9Nqh6zf98iBk_on-R9bDi_5UjQ"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660350/gp-business-case_hx5h3t.jpg"
 tags: [grasspea, report]
 ---
 

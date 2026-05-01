@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "We eat a tiny selection of crops"
 subtitle: "Increasing this diversity brings many potential benefits."
 date: 2023-10-10
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGfIjgQ406j4Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1698057987541?e=1776297600&v=beta&t=WAMPz84hJP259d4p7Ko7guR2N9jaDhjzy1B7zhV7EFQ"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/crop-div1_lop1yw.jpg"
 tags: [Crop diversity, Resilience, Nutrition]
 tools: [Python]
 blurb: "We depend on a narrow selection of crops and this brings multiple risks. Here's some paths to fix this to benefit people and the planet."

@@ -3,7 +3,7 @@ layout: dataviz-item
 title: "USAID freeze leaves large gaps across a range of humanitarian funding"
 subtitle: "Nutrition and food security seem particularly affected."
 date: 2025-03-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGgknplwDGmDw/feedshare-shrink_800/B4EZS4hOFBGwAk-/0/1738262504270?e=1776297600&v=beta&t=NXyjyxNU-MehPI6bptwcO2aqEbFfSxgdrnCtDfbDTYU"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660349/usaid-gaps_xkrap1.jpg"
 tags: [ODA, USAID, Food security]
 tools: [Python]
 blurb: "Imagine a group responsible for $13.80 billion in humanitarian efforts in 2024 freezing almost over night... that's happening right now."

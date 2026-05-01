@@ -3,7 +3,7 @@ layout: post
 title: "An overlooked precarity for local varieties"
 subtitle: "How easily local varieties can be lost if not conserved."
 date: 2024-02-05
-image: "https://media.licdn.com/dms/image/v2/D4E22AQEA_YwnBRhcow/feedshare-shrink_800/feedshare-shrink_800/0/1714912670098?e=1776297600&v=beta&t=zx9aMDXgjn4YlixWKaGeFs1uBm23SNCv-E402HhJibI"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660348/missing-bean_nb77jh.jpg"
 tags: [Seed, Seed systems, Conservation, Genebanks]
 ---
 

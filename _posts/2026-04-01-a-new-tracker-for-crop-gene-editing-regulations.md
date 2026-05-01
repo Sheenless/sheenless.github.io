@@ -3,7 +3,7 @@ layout: post
 title: "I've made new tool to help track & communicate crop GE regulatory change"
 subtitle: "Freely provide high-res versions and news on gene editing regulatory change for crops. "
 date: 2026-04-01
-image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/cropgeregulations/ge-maps-01.webp"
+image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/cropgeregulations/ge-recognition-01.webp"
 tags: [Gene editing, Precision breeding, Crop science]
 ---
 

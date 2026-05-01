@@ -3,7 +3,7 @@ layout: post
 title: "We should do more in social science to recognise enumerators"
 subtitle: "Naming supporting staff in publications should be the standard."
 date: 2023-04-07
-image: "https://media.licdn.com/dms/image/v2/D4E22AQHrBcwGO9CAYA/feedshare-shrink_800/feedshare-shrink_800/0/1680253637632?e=1776297600&v=beta&t=MKibslYPPsN7GzmvscMYApCkZsIWqddv1-XmyJFkwgU"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660347/ennumerators_casibb.jpg"
 tags: [Research, Field research]
 ---
 

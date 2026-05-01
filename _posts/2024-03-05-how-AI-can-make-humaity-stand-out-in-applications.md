@@ -3,8 +3,8 @@ layout: post
 title: "A robot applies for a job"
 subtitle: "What I realised from reviewing AI-written job applications"
 date: 2024-03-05
-image: "https://media.licdn.com/dms/image/v2/D4E22AQFIb6v8tADiig/feedshare-shrink_800/feedshare-shrink_800/0/1713688164279?e=1776297600&v=beta&t=UGO1CdCwmZSHumVDrouT7UbkQVCy_dRxC5_SpAiBbJo"
-tags: []
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660348/ai-job_dph1e3.jpg"
+tags: [AI, Hiring]
 ---
 
 I reviewed 90 research applications. Around a third were near identical. How is this possible? Some reflections and a surprising discovery.

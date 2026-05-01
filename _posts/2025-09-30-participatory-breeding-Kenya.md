@@ -3,7 +3,7 @@ layout: post
 title: "Wheat participatory breeding in Kenya"
 subtitle: "Working with diverse farmers to indentify local needs."
 date: 2025-09-30
-image: "https://media.licdn.com/dms/image/v2/D4E22AQGXEb2BOuj91g/feedshare-shrink_800/B4EZpOkgp9HcAg-/0/1762254787263?e=1776297600&v=beta&t=Q0sJN9DftlqhppRknbtXVlA1PKE5rRO0cSjVXrklehc"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660351/anne-wp4_pjjdgq.jpg"
 tags: [wheat, participatory, kenya, UK-CGIAR]
 ---
 

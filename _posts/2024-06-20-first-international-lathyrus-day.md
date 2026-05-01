@@ -3,7 +3,7 @@ layout: post
 title: "Joining the first International Lathyrus Day"
 subtitle: "A crop with great promise and growing momentum."
 date: 2024-06-20
-image: "https://media.licdn.com/dms/image/v2/D4E22AQF6br4-OocMkQ/feedshare-shrink_800/feedshare-shrink_800/0/1719190260528?e=1776297600&v=beta&t=k_JEZAdeihVbSyjKUlIzvWKlg6B8AFkikBFu2yQM-vM"
+image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1777660349/gp-day_gzcv0t.jpg"
 tags: [Grasspea, Climate smart, VACs]
 ---
 
