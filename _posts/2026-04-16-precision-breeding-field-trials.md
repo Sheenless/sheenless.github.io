@@ -9,13 +9,13 @@ tags: [Precision breeding, Research, Gene editing, Guides]
 
 We know gene editing regulations are changing globally but less is shared on the field trial procedures, so we made a resource for the community on how John Innes Centre handle this.[1]
 
-The John Innes Centre (JIC) has published guidelines for conducting field trials of precision-bred plants under England's new regulatory framework.[2]
+Working with the John Innes Centre (JIC) we've published our guidelines for conducting field trials of precision-bred plants under England's new regulatory framework.[2]
 
-A ‘precision bred’ plant contains genetic features produced using modern biotechnology that could also have been produced by traditional processes.
+A ‘precision bred’ plant contains genetic features produced using modern biotechnology that could also have been produced by traditional processes. As of November 2025, the UK brought in the secondary legislation to support the release of precision-bred products for research and marketing. 
 
 The JIC guidelines are shared as a resource to help others in the plant science, crop breeding and regulatory community.
 
-The guidance covers three areas:
+We cover three areas in this guidance:
 
 ✅ Confirming precision bred status, centred on whole genome sequencing using either short-read (e.g. Illumina) or long-read (e.g. Oxford Nanopore) technologies to confirm the absence of transgenes. 
 🚜 Containment protocols for field trial management.
