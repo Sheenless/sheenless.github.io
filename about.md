@@ -6,7 +6,7 @@ order: 1
 
 Hi, I'm [Dr Matt Heaton](https://www.linkedin.com/in/matt-heaton/). I am a John Innes Foundation Fellow in Sustainable Food Security at the [Norwich Institute for Sustainable Development](https://nisd.ac.uk/core-team/matt-heaton/) and a Research Associate at the [UK-CGIAR Centre](https://www.cabi.org/uk-cgiar-centre/). 
 
-I am based in the [School of Global Development](https://www.uea.ac.uk/about/school-of-global-development) at the University of East Anglia and is a visiting worker at the John Innes Centre.
+I am based in the [School of Global Development](https://www.uea.ac.uk/about/school-of-global-development) at the University of East Anglia and am a visiting worker at the John Innes Centre.
 
 <!-- FOUR BLOCK OVERVIEW -->
 <style>
@@ -76,7 +76,7 @@ I am based in the [School of Global Development](https://www.uea.ac.uk/about/sch
 
   <div class="overview-block">
     <span class="overview-block__label">Data Vis</span>
-    <p class="overview-block__text">I produce <a href="{{ '/data-vis/' | relative_url }}">data visulation of humanitarian and sustainability issues</a> to support communication of these topics.</p>
+    <p class="overview-block__text">I produce <a href="{{ '/dataviz/' | relative_url }}">data visulation of humanitarian and sustainability issues</a> to support communication of these topics.</p>
   </div>
 
   <div class="overview-block">

@@ -4,7 +4,7 @@ title: Visual
 order: 5
 ---
 
-I provide specialist design, including photos, video, graphic design, typesetting and website development. This page contains examples of my work.
+I provide specialist design, including photos, video, graphic design, typesetting and website development. This page contains examples of my work for research. I also offer <a href="https://www.instagram.com/sheenless.analogue/">analogue portraiture</a> outside of research. 
 
 <h2>Kenya</h2>
 <div class="post-grid">

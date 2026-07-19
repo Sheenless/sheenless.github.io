@@ -13,6 +13,7 @@ author:
 markdown:       kramdown
 highlighter:    rouge
 paginate:       5
+permalink:      pretty
 
 plugins:
   - jekyll-paginate
