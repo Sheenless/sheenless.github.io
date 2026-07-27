@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<!-- This <style> block is inlined into every individual research page rather
+     than living in public/css/site.css. That means it's downloaded fresh as
+     part of the HTML on every /research/... page view and can't be cached
+     separately by the browser the way site.css is (site.css is fetched once
+     and reused across every page). It's currently small so the cost is
+     minor, but if this styling grows, moving it into site.css (scoped under
+     .research-item as it already is) would let it be cached once instead of
+     re-downloaded with every research article. -->
 <style>
   .research-item {
     max-width: 780px;

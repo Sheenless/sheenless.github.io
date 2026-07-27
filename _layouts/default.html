@@ -6,8 +6,18 @@
     <title>
       {% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}
     </title>
+    <!-- Local stylesheets: poole.css is the base skeleton/reset, site.css is
+         all custom styling on top. Both are render-blocking (browser waits
+         for these before it can paint), but they're small and same-origin
+         so the cost is one fast round trip each. -->
     <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">
+    <!-- Google Fonts (Inter). preconnect opens the connection to both Google
+         font origins early, but this is still a third-party render-blocking
+         chain: HTML -> fonts.googleapis.com CSS -> fonts.gstatic.com woff2
+         file, all before body text can render in the final font.
+         display=swap avoids invisible text (renders in a fallback font
+         first) but causes a visible font swap/reflow once Inter loads. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -28,6 +38,12 @@
           {% endfor %}
         </a>
         <nav class="site-nav">
+          <!-- Nav links are auto-generated from every page using `layout: page`,
+               sorted by each page's `order:` front matter (see visual.md, blog.md,
+               etc). `autogen` is a marker used to hide pages that shouldn't get a
+               nav link (e.g. individual collection items reuse `layout: page`-like
+               templates but aren't top-level nav pages). Highlighting the active
+               link is just a string match between the current page.url and p.url. -->
           {% assign pages = site.pages | sort: 'order' %}
           {% for p in pages %}
             {% if p.layout == 'page' and p.autogen == nil %}
@@ -38,6 +54,9 @@
         </nav>
       </aside>
 
+      <!-- {{ content }} is filled in by whichever layout/page includes this
+           one (post.html, page.html, dataviz-item.html, etc via `layout: default`
+           in their own front matter) - this is Jekyll's layout inheritance chain. -->
       <main class="content">
         {{ content }}
       </main>
@@ -48,6 +67,9 @@
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
     </footer>
 
+    <!-- `defer` lets the HTML parse and the page paint without waiting on this
+         script; it still runs before DOMContentLoaded, in document order.
+         See public/js/lightbox.js for what it does. -->
     <script src="{{ '/public/js/lightbox.js' | relative_url }}" defer></script>
   </body>
 </html>

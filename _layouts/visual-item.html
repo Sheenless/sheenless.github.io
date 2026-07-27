@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<!-- Used by _visual/*.md items. Deliberately kept as a copy of post.html
+     rather than a shared partial, so each collection's template can diverge
+     later without affecting the others. See post.html for comments on the
+     hero-image transform and the .post-content/lightbox scoping below. -->
 <article class="post">
   {% if page.image and page.image != "" %}
     <img src="{{ page.image | replace: '/upload/', '/upload/f_auto,q_auto,w_1200/' }}" alt="{{ page.title }}">

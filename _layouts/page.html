@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<!-- Generic top-level page layout (About, Blog, Research, Data Vis, Visual
+     index pages). Each of those pages sets its own `order:` in front matter
+     to control nav position (see the nav loop in _layouts/default.html) and
+     builds its own listing markup (post-grid / research-row) inline in the
+     page's own .md file - there's no shared "listing" partial yet. -->
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}

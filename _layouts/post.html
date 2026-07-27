@@ -2,8 +2,19 @@
 layout: default
 ---
 
+<!-- Used by blog posts (_posts/*.md). dataviz-item.html and visual-item.html
+     are near-identical copies of this template for their own collections -
+     if you change the structure here, check whether the same change should
+     go in those too. -->
 <article class="post">
   {% if page.image and page.image != "" %}
+    <!-- Hero/thumbnail image: applies the Cloudinary f_auto,q_auto,w_1200
+         transform (auto format + quality, capped at 1200px wide) directly via
+         the `replace` filter. This is the same optimisation _includes/img.html
+         does for body images, just inlined here since front matter can only
+         hold a plain URL string, not a Liquid include call. No loading="lazy"
+         here deliberately - this image is above the fold, so we want it to
+         start loading immediately rather than being deferred. -->
     <img src="{{ page.image | replace: '/upload/', '/upload/f_auto,q_auto,w_1200/' }}" alt="{{ page.title }}">
   {% endif %}
   <h1>{{ page.title }}</h1>
@@ -18,5 +29,8 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
+  <!-- The .post-content wrapper is what public/js/lightbox.js scopes to -
+       it only makes images inside here click-to-expand, so hero/thumbnail
+       images above (and nav/footer images elsewhere) are left alone. -->
   <div class="post-content">{{ content }}</div>
 </article>

@@ -1,3 +1,20 @@
+{%- comment -%}
+  Reusable body-image tag: {% include img.html src="..." alt="..." width=400 %}
+
+  Why this exists instead of plain Markdown `![alt](url)`: Markdown image
+  syntax can't carry HTML attributes, so a raw image in post content has no
+  way to get `loading="lazy"` or a Cloudinary size/format transform. This
+  include builds both onto any Cloudinary URL passed in as `src`.
+
+  - width (optional, defaults to 1200): passed straight into the Cloudinary
+    w_ transform, so pass a smaller value (e.g. width=400) for images that
+    are always displayed small, to avoid downloading a full-size file.
+  - f_auto,q_auto: Cloudinary auto-selects the best format (e.g. WebP/AVIF)
+    and compression quality for the requesting browser.
+  - loading="lazy": defers the image fetch until it's near the viewport,
+    so it doesn't compete with the hero image / above-the-fold content
+    for bandwidth on initial page load.
+{%- endcomment -%}
 {% assign img_width = include.width | default: 1200 %}
 {% assign img_transform = '/upload/f_auto,q_auto,w_' | append: img_width | append: '/' %}
 <img src="{{ include.src | replace: '/upload/', img_transform }}" alt="{{ include.alt }}" loading="lazy">

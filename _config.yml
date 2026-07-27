@@ -12,14 +12,16 @@ author:
 # Build settings
 markdown:       kramdown
 highlighter:    rouge
+# 'pretty' permalinks strip .html and trailing index, e.g. /about/ instead of /about.html
 permalink:      pretty
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate-v2   # powers the /blog/ pagination (see pagination: block below)
   - jekyll-gist
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-sitemap       # auto-generates /sitemap.xml, useful for checking real (slugified) URLs
+  - jekyll-seo-tag       # emits meta/OG tags via {% seo %} in _layouts/default.html
 
+# Blog post pagination (used on blog.md via {{ paginator }})
 pagination:
   enabled: true
   per_page: 8
@@ -27,6 +29,12 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+# Custom collections, one per content type shown on its own index page
+# (research.md / dataviz.md / visual.md). `output: true` makes Jekyll build
+# a standalone page per item; layout comes from each item's front matter.
+# NOTE: the :name placeholder in permalink is slugified (lowercased, spaces
+# and punctuation -> hyphens), so a file with capitals in its name still
+# gets an all-lowercase URL - check sitemap.xml if a URL 404s unexpectedly.
 collections:
   research:
     output: true

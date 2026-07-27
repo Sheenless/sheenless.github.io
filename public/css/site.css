@@ -210,6 +210,9 @@ h2 { font-size: 1.3rem; font-weight: 600; margin-top: 2rem;  margin-bottom: 1px;
 
 /* =====================
    POST GRID
+   (card thumbnails here are loading="lazy" and capped to w_700 in the
+   Cloudinary URL, set in the markup of each *.md listing page - blog.md,
+   visual.md, dataviz.md, index.html - not here)
    ===================== */
 .post-grid {
   display: grid;
@@ -280,6 +283,9 @@ h2 { font-size: 1.3rem; font-weight: 600; margin-top: 2rem;  margin-bottom: 1px;
   letter-spacing: 0.08em;
 }
 
+/* =====================
+   LIGHTBOX (see public/js/lightbox.js)
+   ===================== */
 .post-content img.is-expandable {
   cursor: zoom-in;
 }

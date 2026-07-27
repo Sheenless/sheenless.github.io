@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<!-- Used by _dataviz/*.md items. Same pattern as post.html/visual-item.html
+     (Cloudinary transform on the front-matter image, .post-content wrapper
+     for lightbox scoping - see post.html for comments) but with the image
+     placed after the title/meta rather than before it. -->
 <article class="dataviz-item">
   <h1>{{ page.title }}</h1>
   {% if page.subtitle %}
