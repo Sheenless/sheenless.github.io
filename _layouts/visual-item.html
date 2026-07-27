@@ -3,8 +3,8 @@ layout: default
 ---
 
 <article class="post">
-  {% if page.image %}
-    <img src="{{ page.image }}" alt="{{ page.title }}">
+  {% if page.image and page.image != "" %}
+    <img src="{{ page.image | replace: '/upload/', '/upload/f_auto,q_auto,w_1200/' }}" alt="{{ page.title }}">
   {% endif %}
   <h1>{{ page.title }}</h1>
   {% if page.subtitle %}
@@ -18,5 +18,5 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-  {{ content }}
+  <div class="post-content">{{ content }}</div>
 </article>

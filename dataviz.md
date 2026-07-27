@@ -18,8 +18,8 @@ Nearly all of these are made in Python, but I'll likely use Datawrapper more so 
 {% assign dataviz_sorted = site.dataviz | sort: 'date' | reverse %}
 {% for item in dataviz_sorted %}
   <div class="post-card">
-    {% if item.image %}
-      <img src="{{ item.image }}" alt="{{ item.title }}">
+    {% if item.image and item.image != "" %}
+      <img src="{{ item.image | replace: '/upload/', '/upload/f_auto,q_auto,w_700/' }}" alt="{{ item.title }}" loading="lazy">
     {% endif %}
     <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
     <p>{{ item.blurb }}</p>

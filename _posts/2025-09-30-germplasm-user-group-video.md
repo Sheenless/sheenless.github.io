@@ -3,7 +3,7 @@ layout: post
 title: "New video we made with Crop Trust on Farmer-genebank benefits"
 subtitle: "The potential in linking farmer groups with national genebanks."
 date: 2025-09-30
-image: \images\gug.jpg
+image: /images/gug.jpg
 tags: [Africa, genebanks, farmers]
 ---
 

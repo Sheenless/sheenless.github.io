@@ -12,14 +12,20 @@ author:
 # Build settings
 markdown:       kramdown
 highlighter:    rouge
-paginate:       5
 permalink:      pretty
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-gist
   - jekyll-sitemap
   - jekyll-seo-tag
+
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 collections:
   research:
@@ -28,6 +34,6 @@ collections:
   dataviz:
     output: true
     permalink: /dataviz/:name/
-  Design:
+  visual:
     output: true
-    permalink: /Design/:name/
+    permalink: /visual/:name/
