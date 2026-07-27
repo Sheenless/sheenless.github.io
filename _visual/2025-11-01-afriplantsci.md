@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AfriPlantSci"
+title: "AfriPlantSci branding and course materials"
 subtitle: "Branding and course development"
 date: 2025-11-20
 image: "https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824510/bookletinner_o6l8no.jpg"
@@ -15,7 +15,7 @@ AfriPlantSci is a training program and workshop series designed for early-career
 
 I designed the logo years ago when I had just started making these kinds of graphics. The scope for the logo was the reflect the nature of the platform in supporting African plant science. The seed itself is a nod to the capacity building component.
 
-![AfrPlantSci](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824511/AfriPlantSci-Updated-Logo_msksao.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824511/AfriPlantSci-Updated-Logo_msksao.jpg" alt="AfrPlantSci" %}
 
 There are a few parts of the logo that I would change going back, but the main one would be the use of the gradient. Much of the content for AfriPlantSci was printed, and often this printed blue-green gradient rendered poorly.
 
@@ -25,11 +25,11 @@ From the start, we wanted the AfriPlantSci course to be accompanied by a trainin
 
 I've typeset [three course booklets](https://zenodo.org/records/19814172) for the AfriPlantSci event. Each contains a combination of technical lab science and personal development skills. All three were typeset in Adobe InDesign. Here's the cover from the 2025 report.
 
-![Cover](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824511/bookletcover_lelk4b.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824511/bookletcover_lelk4b.jpg" alt="Cover" %}
 
 And an example below of how the content with was displayed.
 
-![Inner spread](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824510/bookletinner_o6l8no.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824510/bookletinner_o6l8no.jpg" alt="Inner spread" %}
 
 The booklets were printed in wirobound booklets to allow them to easily sit flat on a surface while following a protocol. The front and back covers also had a clear plastic cover to prevent liquid damage to the document.
 

@@ -11,18 +11,18 @@ I make a lot of diagrams for grant proposals. Normally these are made last minut
 
 I make all of these graphics using Adove Illustrator.
 
-![Wheat](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823718/Wheat-layers-03_nlhv7z.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823718/Wheat-layers-03_nlhv7z.jpg" alt="Wheat" %}
 
 Often these diagrams are complex, designed mainly to support programme planning and communication to management or donor partners.
 
-![Circle](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823719/EB-Figure-1-05_rmiiyr.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823719/EB-Figure-1-05_rmiiyr.jpg" alt="Circle" %}
 
-![UK legumes](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823720/PULSEAT-Figure-update-13_x7kllb.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823720/PULSEAT-Figure-update-13_x7kllb.jpg" alt="UK legumes" %}
 
-![Technology readiness](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823719/EB-Figure-2-11_o7n3fd.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823719/EB-Figure-2-11_o7n3fd.jpg" alt="Technology readiness" %}
 
 Other times these graphs are simple, designed to show a simple idea, concept or grouping.
 
-![Seed systems](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823721/Delivery_diagrams_wdrwik.png)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823721/Delivery_diagrams_wdrwik.png" alt="Seed systems" %}
 
-![UK institutes](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823721/Diagram_breakdowns-01_vgmbq3.png)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823721/Diagram_breakdowns-01_vgmbq3.png" alt="UK institutes" %}

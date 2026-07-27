@@ -35,11 +35,11 @@ Here's a link to the report ["The global regulatory status and commercialisation
 
 The report was typeset in Adobe InDesign using templates I made to follow the NISD style (as I conducted this research from my NISD position). Here's the cover.
 
-![Cover](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824061/cover_kfnv9a.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824061/cover_kfnv9a.jpg" alt="Cover" %}
 
 And an example from the inner:
 
-![Inner](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824061/inner_yb7cya.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824061/inner_yb7cya.jpg" alt="Inner" %}
 
 ## Dedicated website
 

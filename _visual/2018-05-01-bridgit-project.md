@@ -18,14 +18,14 @@ There were two factors that strongly influenced the design of the logo in the fi
 
 Based on this brief, I went with the logo below.
 
-![BRIDGIT Logo](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784825743/BRIGIT-Logo-white-background-01_wq82fi.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784825743/BRIGIT-Logo-white-background-01_wq82fi.jpg" alt="BRIDGIT Logo" %}
 
 Which can be broken down to be explained as follows:
 
-![Logo breakdown](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823954/Artboard_1_copy_4_prvxvr.png)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823954/Artboard_1_copy_4_prvxvr.png" alt="Logo breakdown" %}
 
 The [citizen science](https://www.jic.ac.uk/brigit/help-us-fight-the-threat-of-xylella/) component also require creation of leaflets and brochures guiding the public in how to spot and report signs of _Xylella_
 
-![Leaflet](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784826312/leaflet_wy2nbm.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784826312/leaflet_wy2nbm.jpg" alt="Leaflet" %}
 
 I was also involved in the creation of [the website](https://www.jic.ac.uk/brigit/) content and features, but this project drew on the John Innes Centre's template, limiting the look and feel of the site. 

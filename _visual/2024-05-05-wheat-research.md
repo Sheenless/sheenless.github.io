@@ -11,7 +11,7 @@ Over the years, I've worked alongside several wheat research projects, often foc
 
 Part of the photographic aim for this work was to improve visibility about the crop, the journey of its production and the disease threats. It helps that the orange colouring of rust stands out to draw attention to the shot.
 
-![Wheat rust](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824227/MARPLE2024-137_rdetaj.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824227/MARPLE2024-137_rdetaj.jpg" alt="Wheat rust" %}
 
 I've also been involved in producing videos for wheat projects to describe the research, particularly for MARPLE and the wheat rust projects (such as the video below). For these videos, I normally film using a Canon DSLR (80D) and external voice recording. I very rarely use a lights as these interviews are often held quickly between other meeting activities or held as part of busy travel plans where packing light is essential.
 
@@ -21,11 +21,10 @@ Part of my aim in creating a portfolio of wheat images throughout the year was t
 
 We now have portfolios that follow the whole process of wheat farming, both in the field and the quantification in the lab.
 
-![Wheat growing](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824225/IMG_1083_vgntoa.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824225/IMG_1083_vgntoa.jpg" alt="Wheat growing" %}
 
-![Harvester](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824226/IMG_3139_d4ajqa.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824226/IMG_3139_d4ajqa.jpg" alt="Harvester" %}
 
 A large part of the wheat research also involves a capacity building component. MARPLE particularly involves regular training and its been excellent for use to use this visual content to showcase this side of the project.
 
-![Lab research](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784824227/MARPLE2024-111_jxwn3k.jpg)
-
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784824227/MARPLE2024-111_jxwn3k.jpg" alt="Lab research" %}

@@ -11,16 +11,16 @@ Women play a vital role in our food systems but their potential to make those sa
 
 I was hired to typset the dialogue report and make a few figures and graphs. I typeset the report using Adove InDesign. Here's the cover of the report.
 
-![Cover](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823929/dialogue_aarkyk.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823929/dialogue_aarkyk.jpg" alt="Cover" %}
 
 Since this report had an NISD link through Nitya Rao, I used the NISD report branding and style I've created. The slight tweak here is that I wanted to make more use of negative space to break up the text and photgraphic content.
 
-![Contents](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823928/dialogue2_n3wdqn.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823928/dialogue2_n3wdqn.jpg" alt="Contents" %}
 
 Many of the photos throughout this report were fantastic, taken by [Toby Smith](https://www.tobysmith.com/), who was hired as part of the TIGR2ESS project.
 
-![Inner content](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823926/dialogue3_xnggr1.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823926/dialogue3_xnggr1.jpg" alt="Inner content" %}
 
 I made graphs for a few sections, producing these in Adobe Illustrator.
 
-![Inner graphs](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_1200/v1784823928/dialogue4_ihezyf.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784823928/dialogue4_ihezyf.jpg" alt="Inner graphs" %}

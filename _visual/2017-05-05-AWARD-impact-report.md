@@ -16,7 +16,7 @@ The AWARD logo is a bundle of sticks, drawing from an African proverb that a sin
 
 AWARD had a clear style guide that was a great asset to help me match the report design to be in harmony with AWARD's other outputs.
 
-![Pages](https://res.cloudinary.com/dx9f6wyoq/image/upload/f_auto,q_auto,w_400/v1784677532/Award_figures_asbizd.jpg)
+{% include img.html src="https://res.cloudinary.com/dx9f6wyoq/image/upload/v1784677532/Award_figures_asbizd.jpg" alt="Pages" width=400 %}
 
 There are a few choices I made looking back that I would have changed but on the whole, I'm fairly happy with how this first attempt came together. I certainly never went back to Illustrator... 
 

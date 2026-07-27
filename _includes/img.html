@@ -1,0 +1,3 @@
+{% assign img_width = include.width | default: 1200 %}
+{% assign img_transform = '/upload/f_auto,q_auto,w_' | append: img_width | append: '/' %}
+<img src="{{ include.src | replace: '/upload/', img_transform }}" alt="{{ include.alt }}" loading="lazy">
