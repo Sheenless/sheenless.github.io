@@ -17,6 +17,14 @@
   font-weight: 400 700;
   font-display: swap;
   src: url('/public/fonts/inter-var-latin.woff2') format('woff2');
+  /* Matches Google's own scoping for this exact file (the "latin" subset) -
+     without this, browsers assume the font covers every character and
+     characters missing from this subset (e.g. the '→' arrows used on the
+     homepage) can render as a missing-glyph box instead of falling through
+     to Helvetica Neue/Arial in the font stack below. */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body {

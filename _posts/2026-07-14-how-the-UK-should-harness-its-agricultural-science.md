@@ -7,8 +7,6 @@ image: "https://nisd.ac.uk/wp-content/uploads/2026/07/LCAW4.jpg"
 tags: [Climate, Research, UK]
 ---
 
-_This article was written by me and my colleague Nitya Rao for the Norwich Institute for Sustainable Development._
-
 Our global food system is broken, driving human ill-health and environmental degradation, while also increasingly vulnerable to environmental and geopolitical changes. Agricultural research has an impressive record of raising productivity of harvests in the past but the polycrisis today requires a different, transdisciplinary approach to deliver nutritional and livelihood security while restoring ecosystems. 
 
 This post focuses on how the UK can build on its strengths in research, based on the principles of diversity, equity and inclusivity to leverage global partnerships for food system transformation. This post draws on conversations held as part of a UK-CGIAR Centre event at London Climate Action Week.
@@ -59,3 +57,7 @@ Addressing challenges in food systems today requires bridge building between nat
 Our project on wheat has brought together plant science, bioinformatics, social science and policy to understand how best to bring more nutritious and resilient varieties to farmers. It has helped facilitate discussion on contentious issues such as the regulation of gene editing, helping develop a shared vision and policy framework.
 
 The UK in the past has acted as a facilitator of diverse views under the Chatham House rule and this is becoming increasingly important in a polarised world. We need to create safe spaces for progressive dialogue on difficult topics, based on mutual respect. Ultimately, partnerships to sustain and contribute need to recognize and respect diversity, equity and inclusion. Doing so is essential if we are to achieve nutritious, resilient and sustainable food systems. 
+
+---
+
+_This article was written by me and my colleague Nitya Rao for the Norwich Institute for Sustainable Development._

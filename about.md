@@ -71,7 +71,7 @@ I am based in the [School of Global Development](https://www.uea.ac.uk/about/sch
 
   <div class="overview-block">
     <span class="overview-block__label">Research</span>
-    <p class="overview-block__text">My academic work mixed methods to study agricultural development challenges across <a href="{{ '/research/' | relative_url }}">sub-Saharan Africa and Asia</a>.</p>
+    <p class="overview-block__text">My academic work uses mixed methods to study agricultural development challenges across <a href="{{ '/research/' | relative_url }}">sub-Saharan Africa and Asia</a>.</p>
   </div>
 
   <div class="overview-block">
@@ -91,6 +91,6 @@ I am based in the [School of Global Development](https://www.uea.ac.uk/about/sch
   <li><strong>Understanding wheat farmer preferences:</strong>Research with the UK-CGIAR Centre with farmers and value chains across Egypt, Kenya and Pakistan.</li>
   <li><strong>Gene editing book chapter:</strong> Leading a chapter on the global status of gene editing regulations for crops.</li>
   <li><strong>Gene editing crop regulation tracker:</strong>Leading a website tracking regulatory change across gene editing in crops and providing communication tools for researchers to report on this. See <a href="https://cropgeregulations.com">https://cropgeregulations.com</a>/</li>
-  <li><strong>UK-ASEAN Precision Breeding Network:</strong> Developing a new network for researchers across the UK and ASEAN countries. See <a href='https://uk-asean-precision-breeding.net/'>uk-asean-precision-breeding.net</a></li>
   <li><strong>Principles for ODA</strong> Developing a set of principles to guide and critique Overseas Development Aid strategy. See: <a href='https://odaprinciples.com/'>odaprinciples.com</a></li>
+  <li><strong>Improving the translational ecosystem for wheat innovation</strong> Working with the Delivering Sustainable Wheat programme to understand drivers and ways to improve the impacts from research innovations into healthier and more sustainable wheat. See: <a href='https://wheatresearch.ac.uk/'>wheatresearch.ac.uk</a></li>
 </ul>
