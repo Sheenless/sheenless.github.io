@@ -1,5 +1,24 @@
 *, *::before, *::after { box-sizing: border-box; }
 
+/* =====================
+   FONT (self-hosted Inter, replaces the old Google Fonts <link> tags)
+   ===================== */
+/* Inter is a variable font: this single file covers the whole 400-700
+   weight range used on the site (see font-weight: 400 700 below), so one
+   ~48KB download replaces what would otherwise be 3 separate static-weight
+   files. Licensed under the SIL Open Font License - see public/fonts/OFL.txt.
+   Self-hosting removes the fonts.googleapis.com/fonts.gstatic.com
+   render-blocking chain that a <link> to Google Fonts would add: with this
+   file same-origin, the browser fetches it directly alongside site.css
+   instead of waiting on a second CSS file from a third-party origin first. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/public/fonts/inter-var-latin.woff2') format('woff2');
+}
+
 body {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-size: 17px;

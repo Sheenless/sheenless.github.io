@@ -12,15 +12,11 @@
          so the cost is one fast round trip each. -->
     <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">
-    <!-- Google Fonts (Inter). preconnect opens the connection to both Google
-         font origins early, but this is still a third-party render-blocking
-         chain: HTML -> fonts.googleapis.com CSS -> fonts.gstatic.com woff2
-         file, all before body text can render in the final font.
-         display=swap avoids invisible text (renders in a fallback font
-         first) but causes a visible font swap/reflow once Inter loads. -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Inter is self-hosted (see the @font-face in site.css and
+         public/fonts/inter-var-latin.woff2) rather than loaded from Google
+         Fonts, so there's no third-party fonts.googleapis.com/fonts.gstatic.com
+         chain to wait on here - the font file loads same-origin alongside
+         the rest of the CSS/assets. -->
     <link rel="icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/public/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/public/favicon-32x32.png' | relative_url }}">
@@ -54,9 +50,10 @@
         </nav>
       </aside>
 
-      <!-- {{ content }} is filled in by whichever layout/page includes this
-           one (post.html, page.html, dataviz-item.html, etc via `layout: default`
-           in their own front matter) - this is Jekyll's layout inheritance chain. -->
+      <!-- The `content` variable below is filled in by whichever layout/page
+           includes this one (post.html, page.html, dataviz-item.html, etc via
+           `layout: default` in their own front matter) - this is Jekyll's
+           layout inheritance chain. -->
       <main class="content">
         {{ content }}
       </main>
