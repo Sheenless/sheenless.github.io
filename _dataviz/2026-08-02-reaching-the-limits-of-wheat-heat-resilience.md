@@ -26,7 +26,7 @@ All plants have temperature limits and these limits affect crop yields. For whea
 
 Heat and drought are connected risks. A watered wheat canopy cools itself by transpiring, sitting several degrees below air temperature. A crop that has run out of soil water closes its stomata and loses this cooling effect, making the plant more vulnerable. Our drier springs make hot summers more damaging.
 
-![Here's a link to the full version of the graph in the header](https://res.cloudinary.com/dx9f6wyoq/image/upload/v1786092358/uk_daily_tmax_bars_cambridge_wwbdyx.png). In the graph, each bar is a day during May, June or July. I've coloured them when they breach the temperature stress points. You can see we are already in the danger zone, and we're not far off multiple days of over 35°C. 
+[Here's a link to the full version of the graph in the header](https://res.cloudinary.com/dx9f6wyoq/image/upload/v1786092358/uk_daily_tmax_bars_cambridge_wwbdyx.png). In the graph, each bar is a day during May, June or July. I've coloured them when they breach the temperature stress points. You can see we are already in the danger zone, and we're not far off multiple days of over 35°C. 
 
 Crop improvement offers adaptation options: e.g. heat-tolerant genetic diversity (where it exists), shifting flowering earlier to escape peak heat, and better canopy and rooting management.
 
